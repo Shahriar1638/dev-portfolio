@@ -38,7 +38,7 @@ nav a{
     text-decoration: none;
     color: #14213d;
 }
-/* nav bar ended here */
+/*################ nav bar ended here ################*/
 .para1{
     text-align: justify;
 }
@@ -80,7 +80,7 @@ nav a{
 .bannertext1{
     max-width: 500px;
 }
-/* End of header */
+/* ################End of header################ */
 .sec1{
     padding: 100px 150px;
 }
@@ -127,4 +127,64 @@ nav a{
 .sec2{
     margin-left: 150px;
     margin-right: 150px;
+}
+ /* ################summary part################ */
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.col1{
+    font-weight: 700;
+    color: #fca311;
+}
+.r-h{
+    margin-top: 20px;
+    color: #14213d;
+    margin-bottom: 0px;
+}
+.r-para{
+    margin-top: 5px;
+    color: #31394b;
+}
+.cvdownload{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.dwnld{
+    width:13px;
+}
+.dwnld2{
+    width: 20px;
+}
+.s-icon{
+    width:40px;
+}
+.social-links{
+    display: flex;
+}
+.social-links a{
+    margin-right: 20px;
+}
+footer{
+    display: flex;
+    gap: 100px;
+    margin-top: 120px;
+    /* margin-right: 130px;
+    margin-left: 130px; */
+    padding: 130px 200px;
+}
+.footer-col{
+    width: 50%;
+}
+form input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #696969;
+    border-radius: 7px;
+    border: 0px;
+    width: 100%;
 }

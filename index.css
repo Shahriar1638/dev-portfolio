@@ -1,0 +1,130 @@
+/* color palet:#000000 // #14213d // #fca311 // #e5e5e5 // #ffffff */
+/* Start of header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e5e5e5;
+}
+.nav-title{
+    color: #14213d;
+    font-size: 46px;
+    font-weight: 800;
+}
+.nav-title-span{
+    color: #fca311;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.hire-me{
+    background: #14213d;
+    font-size: 16px;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: #14213d;
+}
+/* nav bar ended here */
+.para1{
+    text-align: justify;
+}
+.header{
+    background-color: #e5e5e5;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.btn{
+    background: #14213d;
+    font-size: 14px;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.banner1{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner1 .profile-pic{
+    width: 500px;
+}
+.intro1{
+    font-size: 42px;
+    color: #14213d;
+    margin-bottom: 0px;
+}
+.intro1-1{
+    font-size: 74px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #fca311;
+}
+.bannertext1{
+    max-width: 500px;
+}
+/* End of header */
+.sec1{
+    padding: 100px 150px;
+}
+.titl{
+    color: #14213d;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+.discr{
+    font-size: 18px;
+    text-align: justify;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.info-title{
+    margin: 0px;
+    color: #14213d;
+}
+.icons{
+    width: 50px;
+}
+.box{
+    color: #e5e5e5;
+    background-image: linear-gradient(45deg,#14213d,#2c364b);
+    width: 200px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: 6px 4px 3px rgb(61, 61, 61);
+}
+.skill-set{
+    display: flex;
+    justify-content: space-between;
+}
+.sec2{
+    margin-left: 150px;
+    margin-right: 150px;
+}
